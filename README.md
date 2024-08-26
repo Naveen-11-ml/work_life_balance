@@ -1,9 +1,5 @@
 # work_life_balance
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
-
 Machine Learning Model to rate an individuals Work Life Balance in a scale of 1-10
 
 ## Project Organization
