@@ -6,7 +6,7 @@ BASE_PATH = Path(__file__).parent.parent
 
 DATA_PATH = BASE_PATH / "data"
 MODEL_PATH = BASE_PATH / "models"
-TRAIN_PATH = BASE_PATH / "work_life_balance/modeling"
+TRANSFORMER_PATH = BASE_PATH / "work_life_balance/transformers"
 
 
 # Data URLs

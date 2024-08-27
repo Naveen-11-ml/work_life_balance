@@ -45,8 +45,8 @@ target_scalar = MinMaxScaler()
 y_train = target_scalar.fit_transform(pd.DataFrame(y_train))
 
 # save the column transformer and target scalar
-joblib.dump(column_transformer, config.TRAIN_PATH / 'column_transformer.joblib')
-joblib.dump(target_scalar, config.TRAIN_PATH / 'target_scalar.joblib')
+joblib.dump(column_transformer, config.TRANSFORMER_PATH / 'column_transformer.joblib')
+joblib.dump(target_scalar, config.TRANSFORMER_PATH / 'target_scalar.joblib')
 
 # save data for training
 joblib.dump(X_train, config.DATA_PATH / 'processed/X_train.joblib')
