@@ -45,10 +45,14 @@ Machine Learning Model to rate an individuals Work Life Balance in a scale of 1-
     │
     ├── features.py             <- Code to create features for modeling
     │
+    ├── preprocessing.py        <- Code to clean raw data and feature extraction
+    │
     ├── modeling                
     │   ├── __init__.py 
     │   ├── predict.py          <- Code to run model inference with trained models          
     │   └── train.py            <- Code to train models
+    │
+    ├── transformers            <- Transformers used within the model
     │
     └── plots.py                <- Code to create visualizations
 ```
