@@ -12,6 +12,8 @@ from sklearn.compose import ColumnTransformer
 
 # Load data into a dataframe
 data = pd.read= pd.read_csv(config.DATA_PATH / 'interim/lifestyle.csv')
+data = data.drop(columns=['Unnamed: 0'])
+print(data)
 
 # Split training and test data set
 X_train, X_test, y_train, y_test = train_test_split(
