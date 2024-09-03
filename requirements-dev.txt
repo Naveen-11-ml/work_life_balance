@@ -7,8 +7,10 @@ pip
 python-dotenv
 numpy
 pandas
+seaborn
 scikit-learn
 joblib
 boto3
 pydantic
+streamlit
 -e .
