@@ -13,4 +13,5 @@ joblib
 boto3
 pydantic
 streamlit
+docker
 -e .
